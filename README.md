@@ -1,7 +1,30 @@
 # Budget-Tracker
-Developed a budget tracker via Python and Jupyter Notebook that imports a dictionary as an editable CSV file
+Developed a budget tracker via Python and Jupyter Notebook that imports a dictionary as an editable CSV file.
 
 Your family member wants to enter the 21st century and track their budget using a Python application that stores data in a .csv file. 
+
+### Deliverables
+A Python application that accepts user input to interact with users.
+
+## Technical Acceptance Criteria:
+User Stories
+- When I start up the application, I am given the following options:
+    - Add a new entry to the budget tracker
+    - Display the total account balance
+    - View all previous entries
+- If I choose to add a new entry, I am asked to provide:
+    - A title describing the budget item
+    - Whether the budget item is Income or Expense
+    - The total amount of the budget item
+    - The date of the transaction in "MM-DD-YYYY" string format
+- If I choose to display the total account balance:
+    - The program adds all income and subtracts all expense items to display the net balance
+- If I choose to view all previous entries:
+    - The program prints all details of all previous entries in a human-readable format
+
+### Technical Requirements:
+- Stores all entries in a .csv file
+- Load the previously created entries when the user initializes the application
 
 ## Getting Started
 
@@ -59,6 +82,12 @@ Returns to user input:
 
 N/A - can launch via Jupyter Notebook
 
+### Post-MVP Goals:
+- The program allows you to track multiple accounts
+- The program can analyze profit and loss for a specific month or year
+- The program can provide high-level stats, such as average transaction size
+- The program can track and analyze transactions by specific customers or vendors
+
 ## Built With
 
   - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
@@ -66,34 +95,13 @@ N/A - can launch via Jupyter Notebook
   - [Creative Commons](https://creativecommons.org/) - Used to choose
     the license
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
+- **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+- Hat tip to anyone whose code is used
+- **Paula Bannerman** - *Provided guidance and oversight* - [dcartist](https://github.com/dcartist)
+- **Andrew Riddle** - *Provided guidance and oversight* - [ajriddle](https://github.com/ajriddle)
